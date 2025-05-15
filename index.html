@@ -3,17 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>World Clock</title>
 </head>
 <body>
-    <header>
+    <div class="container">Y
         <h1>World Clock</h1>
-    </header>
+        <select>
+            <option value="">
+                Select a city
+            </option>
+            <option value="bangkok">Bangkok</option>
+            <option value="managua">Managua</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="sidney">Sidney</option>  
+        </select>
+        <div class="cities">
+            <h2>Vienna</h2>
+            <div class="date"></div>
+            <div class="time"></div>
+            <h2>New York</h2>
+            <div class="date"></div>
+            <div class="time"></div>
+        </div>
     <footer>
         This project was coded by <a href="https://github.com/lindath0905">Linda Thurner</a> and is 
         <a href="https://github.com/lindath0905/world_clock_linda" target="_blank"> open-sourced on GitHub.
     </a>
     </footer>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
